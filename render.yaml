@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: e5renew
+    name: sharelist
     env: docker
     repo: https://github.com/liaobin/E5_renew.git
     plan: free
     envVars:
       - key: PORT
-        value: 1066
+        value: 33001
